@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mountain Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2><a href="#">Mountain Travel</a></h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="bg-image"></div>
+        <div class="hero-content-area">
+            <h1>Mountain Travel</h1>
+            <h3>Unmissable Adventure</h3>
+            <a href="#" class="btn">Contact Us Now</a>
+        </div>
+    </section>
+    <section class="destination" id="about">
+        <h3 class="title">Some of our destination</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae natus fugit, praesentium, et facilis omnis tempore molestias unde in sapiente dolores deleniti doloribus commodi quo id minima eum tempora quidem.</p>
+        <hr>
+        <ul class="grid">
+            <li class="small" style="background-image:  url(img/mountain1.jpg)"></li>
+            <li class="large" style="background-image:  url(img/mountain2.jpg)"></li>
+            <li class="large" style="background-image:  url(img/mountain3.jpg)"></li>
+            <li class="small" style="background-image:  url(img/mountain4.jpg)"></li>
+        </ul>
+    </section>
+    <section class="packages" id="tours">
+        <h3 class="title">Tour Packages</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur optio, ullam sequi quibusdam sint facere accusantium provident, magni, veniam sit, quia eaque nostrum molestias ab tempora non totam itaque.</p>
+        <hr>
+        <ul class="grid">
+            <li>
+                <i class="fa fa-compass fa-4x"></i>
+                <h4>Guided Trips</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis doloribus incidunt facilis natus nulla officia dolores tempore labore, neque delectus amet, dolor hic, ipsam dicta ad veritatis possimus consequatur, aut.</p>
+            </li>
+            <li>
+                <i class="fa fa-camera-retro fa-4x"></i>
+                <h4>Photo Trips</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptates ut iusto modi sed, culpa pariatur earum aperiam itaque repudiandae natus cumque rem, accusamus, totam dolor minima velit architecto incidunt!</p>
+            </li>
+            <li>
+                <i class="fa fa-bicycle fa-4x"></i>
+                <h4>Biking Trips</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora deserunt magni numquam, possimus aspernatur doloribus cupiditate quibusdam iste minima laboriosam unde consequuntur natus iure amet, inventore temporibus modi nihil quisquam.</p>
+            </li>
+            <li>
+                <i class="fa fa-flag-checkered fa-4x"></i>
+                <h4>Racing Trips</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum debitis deleniti voluptatibus mollitia fuga quam ex animi, maxime voluptate minus. Facere nulla excepturi, sequi ex impedit veniam, eum! Quod, tempore.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="testemonials">
+        <h3 class="title">Testemonials from our adventure</h3>
+        <hr>
+        <div id="test">
+            <p class="quote show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea assumenda non dolorum quisquam magnam cum eius sit dolorem optio, ipsa delectus veritatis facere autem soluta corrupti ad excepturi quas veniam.</p>
+            <p class="author show">- Sam Smith</p>
+            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus optio delectus, dolorem. Amet, quisquam, eum debitis modi voluptatibus, ducimus delectus molestiae laborum itaque quam maxime doloremque dolor laboriosam aperiam exercitationem.</p>
+            <p class="author">- Jack Daniels</p>
+            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, et placeat ipsam, officiis fugiat doloremque ducimus tempore aliquid nihil soluta, quia similique veritatis! Quidem repellendus, eum assumenda iure vero eius!</p>
+            <p class="author">- Elon Musk</p>
+            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi culpa reiciendis eaque quidem itaque nesciunt perferendis. Officiis laborum impedit pariatur vel quia, corporis modi distinctio tenetur. Error veritatis, facere alias?</p>
+            <p class="author">- J.R.R. Tolkien</p>
+            <a class="arrow" id="prev"></a>
+            <a class="arrow" id="next"></a>
+            <!-- href="#test"
+href="#test" -->
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="title">Lear more</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis adipisci exercitationem, numquam ratione saepe architecto, facilis laborum. Nihil ex, explicabo molestiae obcaecati ratione! Repellendus non, rerum mollitia quidem fugit reiciendis.</p>
+        <hr>
+        <form>
+            <input id="email" type="email" placeholder="Email" required>
+            <a class="btn" id="sub" onclick="subBtnColor()">Subscribe now</a>
+        </form>
+    </section>
+    <footer>
+        <p>Images courtesy of <a href="http://unsplash.com/" target="_blank">unsplash</a>.</p>
+        <p>Just a footer</p>
+        <ul>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
